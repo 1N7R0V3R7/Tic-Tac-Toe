@@ -18,8 +18,8 @@ public class App {
             tictactoe.display();
         } while(!tictactoe.getWinner());
         if(tictactoe.winnerFlag) 
-            System.out.println("JVM wins!!!");
+            System.out.println("JVM is the winner!!!");
         else 
-            System.out.println("Player wins!!!");       
+            System.out.println("Player is the winner!!!");       
     }
 }
